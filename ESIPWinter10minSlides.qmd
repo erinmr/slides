@@ -1,16 +1,25 @@
 ---
 title: "Community Building Lessons from the NASA Openscapes Framework"
-author: "Erin Robinson and Julia Stewart-Lowndes"
-format: revealjs
+author: "Erin Robinson and Julia Stewart Lowndes"
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+  #  logo: images/Openscapes_ESIP10min_2022_01_180.png
+    css: styles.css
+   # footer: <https://openscapes.org>
 ---
 
 ![](images/Openscapes_ESIP10min_2022_01_180.png)
 
-# Community Building Lessons from the NASA Openscapes Framework
+---
 
-![](images/Openscapes_ESIP10min_2022_01_181.png)
+:::: {.columns}
 
-![](images/Openscapes_ESIP10min_2022_01_182.png)
+::: {.column width="50%"}
+![](images/Openscapes_ESIP10min_2022_01_181.png){width=60%}
 
 [**Erin Robinson, MSc**]{style="color:#5E696C"}
 
@@ -18,19 +27,30 @@ format: revealjs
 
 [Metadata Game Changers]{style="color:#5E696C"}
 
-[erin\@metadatagamechangers.com]{style="color:#5E696C"}
+[@connector_erin]{style="color:#5E696C"}
 
-@connector [\_erin]{style="color:#5E696C"}
+![](images/Openscapes_ESIP10min_2022_01_185.png){width=20%}
+
+:::
+
+::: {.column width="50%"}
+![](images/Openscapes_ESIP10min_2022_01_182.png){width=50%}
 
 [**Julia Stewart Lowndes, PhD**]{style="color:#5E696C"}
 
-[Founder & Co-Director, Openscapes]{style="color:#5E696C"}
+[Co-Director, Openscapes]{style="color:#5E696C"}
 
-[National Center for Ecological Analysis and Synthesis (NCEAS), UC Santa Barbara (UCSB)]{style="color:#5E696C"}
+[NCEAS, UCSB]{style="color:#5E696C"}
 
-[lowndes\@nceas.ucsb.edu; @juliesquid]{style="color:#5E696C"}
+[@juliesquid]{style="color:#5E696C"}
 
-# Engage • Empower • Amplify
+![](images/Openscapes_ESIP10min_2022_01_183.png){width=12%}
+:::
+
+::::
+
+
+## Engage • Empower • Amplify
 
 [*Community Development for Open Science*](https://2022esipjanuarymeeting.sched.com/event/qa8r/community-development-for-open-science) **,**
 
@@ -40,19 +60,13 @@ format: revealjs
 
 [slides:]{style="color:#646363"} [*https://nasa-openscapes.github.io/about*](https://nasa-openscapes.github.io/about)
 
-![](images/Openscapes_ESIP10min_2022_01_183.png)
 
-![](images/Openscapes_ESIP10min_2022_01_184.png)
 
-# openscapes.org
+![](images/Openscapes_ESIP10min_2022_01_184.png){width=10%}
 
-@openscapes
+# {background-image=images/Openscapes_ESIP10min_2022_01_186.png}
 
-![](images/Openscapes_ESIP10min_2022_01_185.png)
-
-[Award \# 20-TWSC20-2-0003]{style="color:#595959"}
-
-![](images/Openscapes_ESIP10min_2022_01_186.png)
+::: {.notes}
 
 [*Empower*]{style="color:#45818E"}
 
@@ -62,27 +76,27 @@ format: revealjs
 
 [A mentorship program that helps researchers move from lonely science by exploring the open science landscape with their teams in a cohort of peers]{style="color:#45818E"}
 
-Open data science
+:::
+
+# Open data science {.smaller}
 
 **The tooling and people enabling reproducible, transparent, and inclusive practices for data-intensive science**
 
-![](images/Openscapes_ESIP10min_2022_01_187.png)
+![](images/Openscapes_ESIP10min_2022_01_187.png){fig-align="center"}
 
-**Tooling**
-
-**tools & practices**
-
-**People**
-
-**teams & community**
+::: {.notes}
 
 **A beautiful feedback loop:** **Using similar tooling promotes and streamlines teamwork. And teamwork better equips you to learn new tooling. With this shared mindset, the idea of team becomes ever-broadening, along with your abilities to adapt to an evolving softwarescape.**
 
-# Create space for discussions
+:::
 
-![](images/Openscapes_ESIP10min_2022_01_188.png)
+## Create space for discussions
 
-![](images/Openscapes_ESIP10min_2022_01_189.jpg)
+::: {.columns}
+
+::: {.column width="50%"}
+
+![](images/Openscapes_ESIP10min_2022_01_188.png){width=96% fig-align="center"}
 
 [**Champions Cohort Calls**]{style="color:#5E696C"}
 
@@ -90,13 +104,26 @@ Open data science
 
 [2x/month]{style="color:#5E696C"}
 
+:::
+
+::: {.column width="50%"}
+
+![](images/Openscapes_ESIP10min_2022_01_189.jpg)
+
 [**\[Sea\]side Chats**]{style="color:#5E696C"}
 
 [Individual teams]{style="color:#5E696C"}
 
 [2x/month]{style="color:#5E696C"}
 
-Open data science feedback loop in action
+
+:::
+
+::::
+
+
+
+## Open data science in action {.scrollable}
 
 [**GitHub**]{style="color:#595959"}
 
@@ -124,6 +151,8 @@ Open data science feedback loop in action
 
 **Reduces** **occurrences** **of** **analysis_final_final_final.R** **AND** **re: fwd: FWD: analysis_final_final_final.R**
 
+# 
+
 *"* *This isn't just about coding & GitHub, it's about changing the way we do science* *." - Dr. Malin Pinsky, Rutgers*
 
 *"* *Openscapes has created a new way of thinking about merging empathy and science* *. That's an invaluable gift to me." - Dr. Halley Froehlich,* *UCSB*
@@ -132,17 +161,15 @@ Open data science feedback loop in action
 
 *- Researcher,* *NOAA National Marine Fisheries Service*
 
-# Biggest impact: research teams work more openly together
+# Biggest impact: research teams work more openly together {.smaller}
 
 Reframe data-intensive research as collaborative effort not an individual burden. students participate in research faster • grant money goes further • co-creating norms promoting diversity, equity & inclusion • new collaborations • on/offboarding • leadership
 
 Biggest lesson: power of research teams & data science to normalize open science
 
-![](images/Openscapes_ESIP10min_2022_01_1813.png)
-
 ![](images/Openscapes_ESIP10min_2022_01_1814.png)
 
-# Openscapes approach
+# Openscapes approach {.smaller}
 
 Researcher-centered, focused on teams. Practice and feel safe working openly with yourself and your team; then ease into more.
 
@@ -156,7 +183,7 @@ Learning & iterating, openly. Not a checklist but a continual practice. Messy.
 
 ![](images/Openscapes_ESIP10min_2022_01_1815.png)
 
-# NASA Earthdata & Openscapes
+# NASA Earthdata & Openscapes {.scrollable}
 
 Supporting NASA Earth science research teams' migration to the cloud
 
@@ -236,27 +263,23 @@ Supporting NASA Earth science research teams' migration to the cloud
 
 [[*podaac.jpl.nasa.gov/announcements/2021-12-15-The-2021-Cloud-Hackathon*]{style="color:#45818E"}](https://podaac.jpl.nasa.gov/announcements/2021-12-15-The-2021-Cloud-Hackathon)
 
-# How would you rate your comfort level working with NASA Earthdata data and services in the cloud, before/after the Cloud Hackathon?
+# How would you rate your comfort level working with NASA Earthdata data and services in the cloud, before/after the Cloud Hackathon? {.scrollable}
 
-# Before
-
-# After
-
-![](images/Openscapes_ESIP10min_2022_01_1831.png)
-
-![](images/Openscapes_ESIP10min_2022_01_1832.png)
 
 ![](images/Openscapes_ESIP10min_2022_01_1833.png)
 
 ![](images/Openscapes_ESIP10min_2022_01_1834.png)
 
-[*Support from participants:*]{style="color:#646363"} [*It's worth investing the extra time required to become familiar with cloud computing and the newer python libraries to access and manipulate satellite data. The few hundred lines of code I wrote this week will replace several thousand lines of old code using just numpy! It's also a heck of a lot easier to read and use.*]{style="color:#646363"}
+# Support from participants {style="color:#646363"} 
 
-[*More work to do:*]{style="color:#646363"} [*The tutorials were fantastic, but I struggled to figure out when to use the various methods we learned in the tutorials.*]{style="color:#646363"}
+[*It's worth investing the extra time required to become familiar with cloud computing and the newer python libraries to access and manipulate satellite data. The few hundred lines of code I wrote this week will replace several thousand lines of old code using just numpy! It's also a heck of a lot easier to read and use.*]{style="color:#646363"}
 
-![](images/Openscapes_ESIP10min_2022_01_1835.png)
+# More work to do {style="color:#646363"} 
 
-Tooling & norms for co-creating
+[*The tutorials were fantastic, but I struggled to figure out when to use the various methods we learned in the tutorials.*]{style="color:#646363"}
+
+
+## Tooling & norms for co-creating {.scrollable}
 
 ![](images/Openscapes_ESIP10min_2022_01_1836.png)
 
@@ -288,11 +311,11 @@ Tooling & norms for co-creating
 
 [Teaching-oriented d]{style="color:#45818E"} [ocumentation: documentation is easier to prioritize when it's for real people (Hackathon book vs Cookbook)]{style="color:#45818E"}
 
-# Open science as part of the climate movement
+## Open science as part of the climate movement
 
-![](images/Openscapes_ESIP10min_2022_01_1838.png)
+![](images/Openscapes_ESIP10min_2022_01_1838.png){width=60%}
 
-![](images/Openscapes_ESIP10min_2022_01_1839.png)
+![](images/Openscapes_ESIP10min_2022_01_1839.png){width=10%}
 
 [Recurring themes]{style="color:#45818E"}
 
@@ -328,9 +351,7 @@ Tooling & norms for co-creating
 
 [Details:]{style="color:#45818E"} [*https://sched.co/qkp5*](https://sched.co/qkp5)
 
-[**Thank you to the**]{style="color:#D86D4C"}
-
-[**DAAC Mentors!**]{style="color:#D86D4C"}
+## Thank you to theDAAC Mentors! {style="color:#D86D4C"}
 
 ![](images/Openscapes_ESIP10min_2022_01_1842.png)
 
